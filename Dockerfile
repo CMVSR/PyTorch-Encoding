@@ -11,6 +11,7 @@ RUN python -m pip install --upgrade pip
 #RUN python -m pip install torch==1.4.0
 #RUN python -m pip install torchvision==0.5.0
 RUN python -m pip install pycocotools==2.0.0
+RUN python -m pip install tensorboardX
 
 #RUN chmod a+rwx -R /opt/conda/
 
